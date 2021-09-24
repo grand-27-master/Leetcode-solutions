@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/8/2021 at 15:37)](https://leetcode.com/problems/count-items-matching-a-rule/discuss/1482987/C%2B%2B-super-easy-solution-or-use-3-IF-statements)  
 <h2>1773. Count Items Matching a Rule</h2><h3>Easy</h3><hr><div><p>You are given an array <code>items</code>, where each <code>items[i] = [type<sub>i</sub>, color<sub>i</sub>, name<sub>i</sub>]</code> describes the type, color, and name of the <code>i<sup>th</sup></code> item. You are also given a rule represented by two strings, <code>ruleKey</code> and <code>ruleValue</code>.</p>
 
 <p>The <code>i<sup>th</sup></code> item is said to match the rule if <strong>one</strong> of the following is true:</p>
