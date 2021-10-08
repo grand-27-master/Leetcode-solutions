@@ -9,7 +9,6 @@ public:
         while (start <= end) 
         {        
             long long int mid = (start + end) / 2;
-            // mid is long long int necessary. Because sometime it can be hapenned that by multiplying two integer it overflow int range. For a safer side better to use long int or long long int
             if (mid*mid == x)
                 return mid;
             
