@@ -1,3 +1,4 @@
+[Discussion Post (created on 14/9/2021 at 11:50)](https://leetcode.com/problems/find-the-duplicate-number/discuss/1520557/C%2B%2B-simple-solution-using-SORT()-method)  
 <h2>287. Find the Duplicate Number</h2><h3>Medium</h3><hr><div><p>Given an array of integers <code>nums</code> containing&nbsp;<code>n + 1</code> integers where each integer is in the range <code>[1, n]</code> inclusive.</p>
 
 <p>There is only <strong>one repeated number</strong> in <code>nums</code>, return <em>this&nbsp;repeated&nbsp;number</em>.</p>
