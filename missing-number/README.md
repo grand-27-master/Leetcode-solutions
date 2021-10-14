@@ -1,3 +1,4 @@
+[Discussion Post (created on 14/9/2021 at 10:20)](https://leetcode.com/problems/missing-number/discuss/1520436/C%2B%2B-both-the-cases-explained-using-CYCLIC-SORT)  
 <h2>268. Missing Number</h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
 
 <p>&nbsp;</p>
