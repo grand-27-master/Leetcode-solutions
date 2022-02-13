@@ -1,36 +1,20 @@
-class Solution {
-    
-    
-    private:
-    void solve(vector<int>nums,vector<int>output, int idx, vector<vector<int>>&ans)
-    {
-        int n=nums.size();
-        if(idx>=n)
-        {
-            ans.push_back(output);
-            return;
-        }
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        def backtrack(first = 0, curr = []):
+            # if the combination is done
+            if len(curr) == k:  
+                output.append(curr[:])
+                return
+            for i in range(first, n):
+                # add nums[i] into the current combination
+                curr.append(nums[i])
+                # use next integers to complete the combination
+                backtrack(i + 1, curr)
+                # backtrack
+                curr.pop()
         
-        //excluding
-         solve(nums,output,idx+1,ans);
-        
-        //including
-        int val=nums[idx];
-        output.push_back(val);
-         solve(nums,output,idx+1,ans);
-    }
-    
-    
-public:
-    vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>>ans;
-        vector<int>output;
-        int n=nums.size();
-        int idx=0;
-        
-        solve(nums,output,idx,ans);
-        
-        return ans;
-        
-    }
-};
+        output = []
+        n = len(nums)
+        for k in range(n + 1):
+            backtrack()
+        return output
